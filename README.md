@@ -7,4 +7,4 @@ The initial board element is EMPTY.
 There are three editions:
 1) allow two human players
 2) play against the foolish computer 
-3) the enhanced computer. 
+3) the enhanced computer. (using minimax algorithm)
