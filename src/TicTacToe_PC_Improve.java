@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TicTacToe_minimax {
+public class TicTacToe_PC_Improve {
     private static char[][] board = new char[3][3];
     private static char currentPlayer = 'X';  // Human player is X
 
@@ -58,7 +58,6 @@ public class TicTacToe_minimax {
     }
 
     private static void playComputerTurn() {
-        System.out.println("Computer's turn:");
         int[] bestMove = minimax(board, 'O');
         board[bestMove[0]][bestMove[1]] = 'O';
     }
